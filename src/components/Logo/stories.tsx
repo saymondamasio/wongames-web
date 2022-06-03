@@ -6,4 +6,4 @@ export default {
   component: Logo
 } as ComponentMeta<typeof Logo>
 
-export const Basic: ComponentStory<typeof Logo> = args => <Logo {...args} />
+export const Default: ComponentStory<typeof Logo> = args => <Logo {...args} />
