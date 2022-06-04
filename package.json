@@ -11,8 +11,8 @@
     "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "test": "jest",
     "test:watch": "jest --watch",
-    "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook -s ./public"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.25",
