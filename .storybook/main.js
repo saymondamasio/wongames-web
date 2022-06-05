@@ -11,4 +11,8 @@ module.exports = {
     "builder": "@storybook/builder-webpack5"
   },
   staticDirs: ['../public'],
+  webpackFinal: (config) => {
+    config.resolve.modules.push(`${process.cwd()}/src`)
+    return config
+  }
 }
