@@ -25,7 +25,7 @@ export const Highlight = ({
 
     <S.Content>
       <S.Title>{title}</S.Title>
-      <S.Subtitle>{subtitle}</S.Subtitle>
+      <S.SubTitle>{subtitle}</S.SubTitle>
 
       <Button as="a" href={buttonLink}>
         {buttonLabel}
